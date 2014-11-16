@@ -1,0 +1,8 @@
+---
+dnsmasq::tld: 'dev'
+dnsmasq::bind: '127.0.0.1'
+dnsmasq::enable: true
+dnsmasq::template: 'dnsmasq/dnsmasq.conf.erb'
+dnsmasq::configdir: '/etc/dnsmasq.d'
+dnsmasq::packagename: 'dnsmasq'
+dnsmasq::servicename: 'dnsmasq'
